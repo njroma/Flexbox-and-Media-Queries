@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+}
+.flex-container{
+    height: 100vh;
+    background: rgb(59, 129, 59);
+    color: white;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.flex-item{
+
+    margin: 3px;
+    border-radius: 10px;
+    background: white;
+    color: rgb(59, 129, 59);
+    padding: 10px 30px 10px 30px;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif; 
+}
+
+@media screen and (max-width: 600px){
+    .flex-container{
+        flex-direction: column;
+    }
+}
